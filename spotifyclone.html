@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.jfif" alt="Spotify">MySpotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Best of Atif Aslam</h1>
+            <div class="songItemcontainer"> 
+                <div class="songItem">
+                    <img src="Spotify Clone/covers/1.jpg" alt="1" >
+                    <span>Wo Lamhe</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-play-circle" id="mp2"></i></span></span>
+                </div>
+               
+
+            </div>
+
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar"  value='0' min="0" max="100" >
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward"></i>
+
+        </div>
+        <div class="songInfo">
+            <img src="Spotify Clone/playing.gif" width="62px" id="gif">  Wo Lamhe By Atif Aslam
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/0f51176b42.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
